@@ -1,0 +1,15 @@
+section {
+  border: 1px solid LightGrey;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.square {
+  display: inline-block;
+  float:left;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 1px dashed pink;
+}
