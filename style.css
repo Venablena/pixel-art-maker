@@ -24,6 +24,10 @@
   float: left;
 }
 
+.selected {
+  border: 1px solid blue;
+}
+
 #pink {
   background-color: pink;
 }

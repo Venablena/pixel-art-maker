@@ -4,7 +4,14 @@ console.log("Sanity check");
 let color = "";
 document.querySelectorAll('.circle').forEach(function(pen){
   pen.addEventListener('click', function(){
-    color = this.id
+    let selected = this.className.includes("selected")
+    if (selected === false) {
+      this.className += ' selected'
+      color = this.id
+    }else{
+      this.className ='circle'
+      color = ""
+    }
   })
 });
 
@@ -17,8 +24,6 @@ let squares = document.querySelectorAll('.square').forEach(function(pixel){
     }
   })
 })
-
-//color.toString ?!
 
 //   for (let i = 0; i < squares.length; i++) {
 //     let pixel = squares[i]
