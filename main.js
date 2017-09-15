@@ -4,14 +4,14 @@ console.log("Sanity check");
 let color = "";
 document.querySelectorAll('.circle').forEach(function(pen){
   pen.addEventListener('click', function(){
-    let selected = this.className.includes("selected")
-    if (selected === false) {
-      this.className += ' selected'
+    // let selected = this.className.includes("selected")
+    // if (selected === false) {
+      // this.className += ' selected'
       color = this.id
-    }else{
-      this.className ='circle'
-      color = ""
-    }
+    // }else{
+    //   this.className ='circle'
+    //   color = ""
+    // }
   })
 });
 
