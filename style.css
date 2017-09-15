@@ -1,23 +1,22 @@
 .grid-2by-2 {
-  border: 1px solid LightGrey;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
 
 .square {
   display: inline-block;
   float:left;
   box-sizing: border-box;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: 1px dashed Grey;
   background-color: white;
 }
 
 .circle {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: 1px dashed Grey;
   background-color: white;
   margin: 10px;
@@ -34,4 +33,36 @@
 
 #yellow {
   background-color: yellow;
+}
+
+#teal {
+  background-color: teal;
+}
+
+#maroon {
+  background-color: maroon;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#tomato {
+  background-color: tomato;
+}
+
+#lime {
+  background-color: lime;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#lightblue {
+  background-color: lightblue;
 }
